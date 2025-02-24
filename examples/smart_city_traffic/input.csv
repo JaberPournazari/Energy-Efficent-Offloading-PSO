@@ -1,0 +1,11 @@
+source,0.30,source_task000,
+processing,5.00,processing_task_1,
+processing,10.00,processing_task_2,
+processing,15.00,processing_task_3,
+sink,0.50,sink_task_1,
+source_task_1,data_flow,processing_task_1,1000
+processing_task_1,data_flow,sink_task_1,200
+processing_task_2,data_flow,sink_task_1,200
+processing_task_3,data_flow,sink_task_1,200
+source_task_1,data_flow,processing_task_2,1000
+source_task_1,data_flow,processing_task_3,1000

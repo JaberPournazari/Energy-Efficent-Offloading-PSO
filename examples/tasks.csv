@@ -1,0 +1,10 @@
+Type,CU,ID,SourceID,TargetID,BitRate
+data_flow,,0,source_task_1,processing_task_1,1000
+data_flow,,1,source_task_2,processing_task_2,1000
+data_flow,,2,source_task_2,processing_task_3,1000
+data_flow,,2,source_task_2,processing_task_4,1000
+data_flow,,2,source_task_2,processing_task_5,1000
+data_flow,,2,source_task_2,processing_task_6,1000
+data_flow,,2,source_task_2,processing_task_7,1000
+data_flow,,2,source_task_2,processing_task_8,1000
+data_flow,,3,processing_task_1,sink_task_1,200

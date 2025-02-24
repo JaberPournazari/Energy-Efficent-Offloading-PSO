@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "type": "source_node",
+      "cu": 0.3
+    },
+    {
+      "type": "processing",
+      "cu": 5.0
+    },
+    {
+      "type": "processing",
+      "cu": 10.0
+    },
+    {
+      "type": "processing",
+      "cu": 15.0
+    },
+    {
+      "type": "sink_node",
+      "cu": 0.5
+    }
+  ]
+}
